@@ -7,7 +7,7 @@
 
   /*color-scheme: light dark;*/
   color: #242424;
-  background-color: #FEFDF6;
+  background-color: #EDEBEB;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,15 +16,14 @@
 }
 
 span {
-    --tw-tracking: var(--tracking-tighter) /* -0.05em */;
-    letter-spacing: var(--tracking-tighter) /* -0.05em */
+    --tw-tracking: var(--tracking-tighter);
+    letter-spacing: var(--tracking-tighter);
+    color: #242424;
 }
 
-hr {
-    margin: 30px 0;
-    height: 1px;
-    border: none;
-    background: gray;
+a > span {
+    color: #EDEBEB;
+    background-color: #242424;
 }
 
 @keyframes coinFlip {
