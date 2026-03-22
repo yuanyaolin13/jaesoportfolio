@@ -5,6 +5,10 @@ import './index.css'
 import App from './App';
 
 import Home from "./components/pages/Home.tsx";
+import Resume from "./components/pages/Resume.tsx";
+import Project1 from "./components/pages/Project1.tsx";
+import Project2 from "./components/pages/Project2.tsx";
+import Project3 from "./components/pages/Project3.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +20,22 @@ const router = createBrowserRouter([
         index: true,
         element: <Home/>
       },
+      {
+        path: '/resume',
+        element: <Resume/>
+      },
+      {
+        path: '/projects/1',
+        element: <Project1/>
+      },
+      {
+        path: '/projects/2',
+        element: <Project2/>
+      },
+      {
+        path: '/projects/3',
+        element: <Project3/>
+      }
     ]
   }
 ]);

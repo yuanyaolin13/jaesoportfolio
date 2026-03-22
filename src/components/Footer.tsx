@@ -1,0 +1,28 @@
+import linkedin from "../assets/linkedin-logo-svgrepo-com.svg";
+
+function Footer() {
+  return (
+    <div className="flex flex-col justify-center mt-auto w-full pt-6">
+      <hr className="h-px my-4 bg-slate-600 border-0"/>
+      <div className="flex flex-row justify-center mt-auto w-full items-center">
+        <a href={'/'}>
+          <span className="text-4xl font-extrabold">
+          JS
+          </span>
+        </a>
+        <div className='sm:text-lg text-left flex flex-row justify-center ml-auto'>
+          <a href={'https://www.linkedin.com/in/jae-so/'}>
+            <img src={linkedin} alt={'linkedin link'} className={'w-8 h-8 px-1'}/>
+          </a>
+          <span className={'m-auto text-xl'}>|</span>
+          <span className={'px-1 m-auto text-sm'}>sojae04 [at] gmail [dot] com</span>
+        </div>
+      </div>
+      <span className='text-xs font-light opacity-80'>
+        © {new Date().getFullYear()} Jae So
+      </span>
+    </div>
+  );
+}
+
+export default Footer;

@@ -1,11 +1,12 @@
 interface Props {
+  projectId: string;
   projectPhoto: string;
   projectTitle: string;
   projectDate: string;
   projectDescription: string;
 }
 
-function ProjectItemMobile({ projectPhoto, projectTitle, projectDate, projectDescription }: Props) {
+function ProjectItemMobile({ projectId, projectPhoto, projectTitle, projectDate, projectDescription }: Props) {
   return (
     <div className="flex flex-col h-full w-full my-4 space-y-2 px-2">
         <hr className="h-px my-8 bg-slate-600 border-0"/>
@@ -15,7 +16,7 @@ function ProjectItemMobile({ projectPhoto, projectTitle, projectDate, projectDes
           alt={projectTitle + " image"}
         />
         <div className="flex flex-row w-full justify-between">
-          <a href={'/'}>
+          <a href={`/projects/${projectId}`}>
             <span className={'text-2xl font-bold underline uppercase'}>{projectTitle}</span>
           </a>
           <span>{projectDate}</span>

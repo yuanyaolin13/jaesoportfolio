@@ -11,7 +11,10 @@ function Home() {
       <JaeSoLandingMobile />
       <JaeSoInformationMobile />
     </div> :
-    <div>Desktop HOME</div>
+    <div>
+      Desktop HOME
+    </div>
+
 }
 
 export default Home;
