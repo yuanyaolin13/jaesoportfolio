@@ -5,7 +5,7 @@ function Footer() {
     <div className="flex flex-col justify-center mt-auto w-full pt-6">
       <hr className="h-px my-4 bg-slate-600 border-0"/>
       <div className="flex flex-row justify-center mt-auto w-full items-center">
-        <a href={'/'}>
+        <a href={'/'} className={'dark-link'}>
           <span className="text-4xl font-extrabold">
           JS
           </span>

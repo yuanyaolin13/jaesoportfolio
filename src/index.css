@@ -21,7 +21,7 @@ span {
     color: #242424;
 }
 
-a > span {
+a.dark-link > span {
     color: #EDEBEB;
     background-color: #242424;
 }

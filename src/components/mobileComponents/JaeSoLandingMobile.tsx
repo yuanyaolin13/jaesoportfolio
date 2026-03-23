@@ -6,7 +6,6 @@ import { useScrollFadeIn } from "../hooks/useScrollFadeIn.ts"; // ← fixed typo
 function JaeSoLandingMobile() {
   const [flipping, setFlipping] = useState(false);
   const [flipped, setFlipped] = useState(false);
-
   const { ref, visible } = useScrollFadeIn();
 
   const handleClick = () => {
@@ -62,9 +61,9 @@ function JaeSoLandingMobile() {
         </div>
       </div>
       <div ref={ref} className={`fade-up ${visible ? "visible" : ""} mb-auto ml-auto`} style={{ transitionDelay: "300ms" }}>
-        <a href={"/resume"}>
+        <a href={"/resume"} className={'dark-link'}>
         <span className={'border border-black px-2 py-1 text-xl'}>
-          RESUME &#8594;
+          RESUME &rarr;
         </span>
         </a>
       </div>
