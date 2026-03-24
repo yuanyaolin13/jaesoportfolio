@@ -2,21 +2,13 @@ import Thumbnail from "../../assets/wellpet/WP_thumbnail.png";
 import HiFi from "../../assets/wellpet/WP_HiFi.png";
 import LoFi from "../../assets/wellpet/WP_LoFi.png";
 import Style from "../../assets/wellpet/WP_Style.png";
+import MobileHeader from "../mobileComponents/MobileHeader.tsx";
 
 function Project1() {
   return (
     <>
       <div className={'flex flex-col w-full'}>
-        <div className={'flex flex-row'}>
-          <a href={"/"} className={'dark-link'}>
-            <span className={'border border-black px-2 py-1 text-xl'}>
-              &larr; BACK
-            </span>
-          </a>
-          <span className={'ml-auto text-3xl font-extrabold text-right'}>
-            JS
-          </span>
-        </div>
+        <MobileHeader />
         <section className={'flex flex-col w-full mt-8'}>
           <article className={'flex flex-col space-y-4'}>
             <img

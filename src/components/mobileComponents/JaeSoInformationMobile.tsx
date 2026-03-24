@@ -20,7 +20,7 @@ function JaeSoInformationMobile() {
       <span ref={ref} className={`fade-up ${visible ? "visible" : ""} text-6xl font-bold text-left`}>
         MY WORK
       </span>
-      <div ref={ref} className={`fade-up ${visible ? "visible" : ""} flex flex-col sm:grid sm:grid-cols-2 h-full w-full`} style={{ transitionDelay: "300ms" }}>
+      <div ref={ref} className={`fade-up ${visible ? "visible" : ""} flex flex-col sm:grid sm:grid-cols-2 h-full w-full items-center`} style={{ transitionDelay: "300ms" }}>
         {
           project.map((item) => (
             <ProjectItem projectId={item.projectId}
@@ -32,6 +32,9 @@ function JaeSoInformationMobile() {
             />
           ))
         }
+        <span className={'italic opacity-60'}>
+         more coming!!
+        </span>
       </div>
     </div>
   );
