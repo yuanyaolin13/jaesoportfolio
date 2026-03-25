@@ -283,12 +283,15 @@ function Project1() {
                 <li><span className={'text-lg'}>n/a</span></li>
               </ul>
 
-              <span className={'italic opacity-60 mt-2'}>
+              <span className={'text-lg font-bold'}>Feedback: </span>
+              <div className="flex flex-col items-center mx-auto w-1/2">
+               <span className={'italic opacity-60 text-center'}>
                 “[The forum layout is] cute and good for when comments come in so you can look at them easily.”
               </span>
-              <span className={'text-right ml-auto -mt-6'}>
+               <span className={'text-right ml-auto'}>
                 -Lucy
               </span>
+             </div>
 
 
             </div>

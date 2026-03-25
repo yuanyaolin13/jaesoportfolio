@@ -131,7 +131,11 @@ function Resume() {
           className={`fade-up ${visible ? "visible" : "" } flex flex-col`}
           style={{ transitionDelay: "150ms" }}
         >
-          <a href={"https://drive.google.com/file/d/1t05UfeTrL8rzTD9TfytDF37x3Do7KMO2/view"} className={'dark-link ml-auto'}>
+          <a
+            href={"https://drive.google.com/file/d/1t05UfeTrL8rzTD9TfytDF37x3Do7KMO2/view"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={'dark-link ml-auto'}>
             <span className={'border border-black px-2 py-1 text-lg'}>
               PDF VERSION
             </span>

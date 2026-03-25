@@ -2,9 +2,9 @@ import linkedin from "../assets/linkedin-logo-svgrepo-com.svg";
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-center mt-auto w-full pt-6">
-      <hr className="h-px my-4 bg-slate-600 border-0"/>
-      <div className="flex flex-row justify-center mt-auto w-full items-center">
+    <div className="flex flex-col justify-center mt-auto w-full pb-8">
+      <hr className="h-px mx-8 md:mx-0 my-4 md:my-0 bg-slate-600 border-0"/>
+      <div className="flex flex-row justify-center mt-auto w-full items-center px-8 pt-2">
         <a href={'/'} className={'dark-link'}>
           <span className="text-4xl font-extrabold">
           JS

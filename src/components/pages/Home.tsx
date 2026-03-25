@@ -6,14 +6,16 @@ import {useIsMobile} from "../hooks/useIsMobile.ts";
 function Home() {
   const isMobile = useIsMobile();
 
-  return isMobile ?
+  return(
     <div className={'flex flex-col w-full items-center justify-center'}>
-      <JaeSoLandingMobile />
+      {
+        isMobile ?
+          <JaeSoLandingMobile /> :
+          <></>
+      }
       <JaeSoInformationMobile />
-    </div> :
-    <div>
-      Desktop HOME
     </div>
+  );
 
 }
 
