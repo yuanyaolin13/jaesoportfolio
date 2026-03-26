@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import test from "../assets/reze.png";
+import drawJae from "../assets/drawJae.png";
 import jae from "../assets/jae.jpg";
 
 function JaeSoImage() {
@@ -16,7 +16,7 @@ function JaeSoImage() {
   return (
     <div className='w-full flex flex-row justify-center'>
       <div className="relative inline-block">
-        <div className="absolute -right-12 sm:-right-6 flex items-center">
+        <div className="absolute -top-6 md:-top-0 -right-12 sm:-right-6 flex items-center">
           <span className="text-sm absolute -top-2 -right-6">click me!</span>
           <svg
             className="rotate-12"
@@ -32,7 +32,7 @@ function JaeSoImage() {
         </div>
         <img
           alt='jaesopic'
-          src={flipped ? test : jae}
+          src={flipped ? drawJae : jae}
           onClick={handleClick}
           className={`rounded-full w-28 h-28 sm:w-64 sm:h-64 object-cover border-2 border-black cursor-pointer ${flipping ? "coin-flip" : ""}`}
         />

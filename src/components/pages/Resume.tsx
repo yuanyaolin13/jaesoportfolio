@@ -20,10 +20,10 @@ function Resume() {
             <span className="font-bold text-lg/6">
               Hussman School & School of Information and Library Science
             </span>
-            <span className="opacity-60 text-xs">
+            <span className="opacity-60 text-md">
               Chapel Hill, NC | 2022 - 2026
             </span>
-            <span className="opacity-60 text-xs">
+            <span className="opacity-60 text-md">
               B.A. in Media and Journalism, Advertising & Public Relations
               <br/>
               B.S. in Information Science
@@ -48,10 +48,10 @@ function Resume() {
               <span className="font-bold text-lg/6">
                 SAS: Learning Design and Development Technical Intern
               </span>
-              <span className="opacity-60 text-xs">
+              <span className="opacity-60 text-md">
                 Cary, NC | Summer 2025 - Present
               </span>
-              <span className="opacity-60 text-xs">
+              <span className="opacity-60 text-md">
                 <ul className={'list-disc ml-4 w-auto'}>
                   <li><span>Developed communication skills while working with team members.</span></li>
                   <li><span>Designed different aspects of e-Learning software to help accessibility.</span></li>
@@ -61,8 +61,8 @@ function Resume() {
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg/6">CAR/VR: Design Development Team</span>
-              <span className="opacity-60 text-xs">Chapel Hill, NC | March 2024 - May 2025</span>
-              <span className="opacity-60 text-xs">
+              <span className="opacity-60 text-md">Chapel Hill, NC | March 2024 - May 2025</span>
+              <span className="opacity-60 text-md">
               <ul className={'list-disc ml-4 w-auto'}>
                 <li><span>Produced assets to use in websites, games, and other virtual experiences.</span></li>
                 <li><span>Communicated effectively with members within and beyond team.</span></li>
@@ -73,8 +73,8 @@ function Resume() {
 
             <div className="flex flex-col">
               <span className="font-bold text-lg/6">UNC Asian American Student Association: Graphic Designer</span>
-              <span className="opacity-60 text-xs">Chapel Hill, NC | September 2023 - April 2024</span>
-              <span className="opacity-60 text-xs">
+              <span className="opacity-60 text-md">Chapel Hill, NC | September 2023 - April 2024</span>
+              <span className="opacity-60 text-md">
               <ul className={'list-disc ml-4 w-auto'}>
                 <li><span>Created engaging graphics to improve engagement on social media.</span></li>
                 <li><span>Designed merchandise to be sold at large events.</span></li>
@@ -85,8 +85,8 @@ function Resume() {
 
             <div className="flex flex-col">
               <span className="font-bold text-lg/6">UNC Korean American Student Association: Graphic Designer & Cultural Chair</span>
-              <span className="opacity-60 text-xs">Chapel Hill, NC | September 2022 - April 2024</span>
-              <span className="opacity-60 text-xs">
+              <span className="opacity-60 text-md">Chapel Hill, NC | September 2022 - April 2024</span>
+              <span className="opacity-60 text-md">
               <ul className={'list-disc ml-4 w-auto'}>
                 <li><span>Organized events to promote cultural understanding of Korean culture.</span></li>
                 <li><span>Managed the organization's social media and schedule.</span></li>
@@ -110,7 +110,7 @@ function Resume() {
             <span className="font-bold text-lg/6">
               Design / Programming
             </span>
-            <span className="opacity-60 text-xs">
+            <span className="opacity-60 text-md">
               UX Design, Wireframing, Personas, Color Theory, Storyboarding, Video Editing,
               Illustration, 3D Modeling and Printing, HTML/CSS, JavaScript, Python
             </span>
@@ -119,7 +119,7 @@ function Resume() {
             <span className="font-bold text-lg/6">
               Software
             </span>
-            <span className="opacity-60 text-xs">
+            <span className="opacity-60 text-md">
               Figma, Illustrator, Premier Pro, Photoshop, InDesign, DreamWeaver, Blender,
               Procreate, Canva, Camtasia
             </span>

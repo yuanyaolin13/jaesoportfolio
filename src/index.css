@@ -24,6 +24,12 @@ span {
 a.dark-link > span {
     color: #EDEBEB;
     background-color: #242424;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+a.dark-link > span:hover {
+    color: #242424;
+    background-color: #EDEBEB;
 }
 
 @keyframes coinFlip {

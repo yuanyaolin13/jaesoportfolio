@@ -3,13 +3,24 @@ import HiFi from "../../assets/wellpet/WP_HiFi.png";
 import LoFi from "../../assets/wellpet/WP_LoFi.png";
 import Style from "../../assets/wellpet/WP_Style.png";
 import MobileHeader from "../mobileComponents/MobileHeader.tsx";
+import {useScrollFadeIn} from "../hooks/useScrollFadeIn.ts";
 
 function Project1() {
+
+  const { ref, visible } = useScrollFadeIn();
+
   return (
     <>
       <div className={'flex flex-col w-full'}>
-        <MobileHeader />
-        <section className={'flex flex-col w-full mt-8'}>
+        <div ref={ref} className={`fade-up ${visible ? "visible" : ""}`} >
+          <MobileHeader />
+        </div>
+
+        <section
+          ref={ref}
+          className={`fade-up ${visible ? "visible" : ""} flex flex-col w-full mt-8`}
+          style={{ transitionDelay: "150ms" }}
+          >
           <article className={'flex flex-col space-y-4'}>
             <img
               className='object-contain object-center w-full border-2'

@@ -18,7 +18,7 @@ function JaeSoLandingMobile() {
         </div>
         <div ref={ref} className={`fade-up ${visible ? "visible" : ""} sm:text-xl text-left flex flex-col space-y-4`} style={{ transitionDelay: "150ms" }}>
           <span>
-            Hello! I'm a student at the University of North Carolina at Chapel Hill, double majoring in Information Sciences and Media and Journalism (Advertising and PR).
+            Hello! I'm a student at the University of North Carolina at Chapel Hill, double majoring in Information Sciences and Media and Journalism (Advertising and PR). Professionally, I am a year-round intern at SAS in the Learning Design and Development team!
           </span>
           <span>
             I'm passionate about UI/UX design and graphic design, and have been doing art since I could walk. In my free time, I like to play video games, make matcha lattes, and play with my cat!

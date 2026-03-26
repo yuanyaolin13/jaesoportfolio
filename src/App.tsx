@@ -9,17 +9,16 @@ function App() {
   return (
     <>
       <div className={'flex flex-row min-h-screen'}>
-        <div className={'flex-1 min-w-0 p-8'}>
-          <Outlet />
-        </div>
-
         {!isMobile && (
-          <aside className={'w-1/3 flex-shrink-0 border-l border-black'}>
+          <aside className={'w-1/3 flex-shrink-0 border-r border-slate-600 '}>
             <div className={'sticky top-0 h-screen'}>
               <DesktopLanding />
             </div>
           </aside>
         )}
+        <div className={'min-w-0 p-8 md:p-16'}>
+          <Outlet />
+        </div>
       </div>
 
       <Footer />
