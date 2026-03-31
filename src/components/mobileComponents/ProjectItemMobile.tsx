@@ -20,9 +20,9 @@ function ProjectItemMobile({ projectId, projectPhoto, projectTitle, projectType,
         </a>
         <div className="flex flex-row w-full justify-between">
           <a href={`/projects/${projectId}`}>
-            <span className={'text-2xl font-bold underline uppercase bg-transparent'}>{projectTitle}</span>
+            <span className={'text-xl sm:text-2xl font-bold underline uppercase bg-transparent'}>{projectTitle}</span>
           </a>
-          <span className={'text-sm'}>{projectType} | {projectDate}</span>
+          <span className={'text-xs sm:text-sm'}>{projectType} | {projectDate}</span>
         </div>
         <span className={'text-left'}>
           {projectDescription}

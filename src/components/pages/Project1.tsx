@@ -45,19 +45,19 @@ function Project1() {
               </a>
             </div>
 
-            <div className={'flex flex-col items-center space-y-2'}>
+            <div className={'flex flex-col justify-around space-y-2'}>
               <span className={'font-bold text-4xl'}>Overview</span>
               <div className={'flex flex-row space-x-4'}>
                 <div className={'flex flex-col w-1/3'}>
-                  <span className={'font-bold'}>ROLE</span>
+                  <span className={'font-bold text-lg'}>ROLE</span>
                   <span>UI/UX Researcher</span>
                 </div>
                 <div className={'flex flex-col w-1/3'}>
-                  <span className={'font-bold'}>TOOLS</span>
+                  <span className={'font-bold text-lg'}>TOOLS</span>
                   <span>Figma, User Testing</span>
                 </div>
                 <div className={'flex flex-col w-1/3'}>
-                  <span className={'font-bold'}>TIMELINE</span>
+                  <span className={'font-bold text-lg'}>TIMELINE</span>
                   <span>15 Weeks</span>
                 </div>
               </div>
@@ -295,13 +295,19 @@ function Project1() {
               </ul>
 
               <span className={'text-lg font-bold'}>Feedback: </span>
-              <div className="flex flex-col items-center mx-auto w-1/2">
+              <div className="flex flex-col items-center mx-auto space-y-2 w-full md:w-1/2">
                <span className={'italic opacity-60 text-center'}>
                 “[The forum layout is] cute and good for when comments come in so you can look at them easily.”
-              </span>
-               <span className={'text-right ml-auto'}>
+                </span>
+                <span className={'text-right ml-auto'}>
                 -Lucy
-              </span>
+                </span>
+                <span className={'italic opacity-60 text-center'}>
+                “I would [consider using this app for my pets] because it holds my hand through everything I would want to enter.” - Ángel
+                </span>
+                <span className={'text-right ml-auto'}>
+                -Angel
+                </span>
              </div>
 
 
