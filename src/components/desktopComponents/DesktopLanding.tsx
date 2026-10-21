@@ -18,7 +18,8 @@ function DesktopLanding() {
         </div>
         <div ref={ref} className={`fade-up ${visible ? "visible" : ""} text-md text-left flex flex-col space-y-2`} style={{ transitionDelay: "150ms" }}>
           <span>
-            Hello! I'm a student at the University of North Carolina at Chapel Hill, double majoring in Information Sciences and Media and Journalism (Advertising and PR). Professionally, I am a year-round intern at SAS in the Learning Design and Development team!
+            Hello! I am a year-round intern at SAS in the Learning Design and Development team! 
+            I'm an alum at the University of North Carolina at Chapel Hill, double majoring in Information Sciences and Media and Journalism (Advertising and PR).
           </span>
           <span>
             I'm passionate about UI/UX design and graphic design, and have been doing art since I could walk. In my free time, I like to play video games, make matcha lattes, and play with my cat!
